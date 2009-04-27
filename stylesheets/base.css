@@ -2,6 +2,9 @@
 html{
   background: #cdd4d6;
 }
+a{
+  color: #7f0000;
+  }
 body{
   background: #cdd4d6 url(/themes/ansuz_theme_al_lp/images/bg.png)repeat-x top left;
   font-family: times, serif;
@@ -28,7 +31,7 @@ body{
   .header .logo a{
     display: block;
     height: 128px;
-    width: 450px;
+    width: 180px;
   }
   .header .logo a span{
     display: none;
@@ -143,7 +146,7 @@ body{
     background: transparent url(/themes/ansuz_theme_al_lp/images/cont-wrapper-bg.png) no-repeat left top;
     width: 996px;
     margin: 10px auto 0;
-    padding-top: 20px;
+    padding-top: 30px;
   }
   .content-wrapper .container{
     background: #fff;
@@ -151,6 +154,13 @@ body{
     margin: 0 auto 15px;
     text-align: left;
     padding-bottom: 15px;
+    position: relative;
+  }
+  .content-wrapper .container #breadcrumb{
+    position: absolute;
+    top: -22px;
+    left: 5px;
+    font-weight: 400;
   }
   .content-wrapper .container h2{
     font-weight: 400;
