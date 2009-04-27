@@ -1,0 +1,159 @@
+:link,:visited { text-decoration:none } :focus,:active { outline: 0 } ul,ol { list-style:none } h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; } ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input { margin:0; padding:0 } a img,:link img,:visited img, fieldset { border:none } address { font-style:normal }
+body{
+  background: #cdd4d6 url(/themes/ansuz_theme_al_lp/images/bg.png)repeat-x top left;
+  font-family: times, serif;
+  text-align: center;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  color: #4b4b4b;
+  }
+  .header{
+    width: 950px;
+    height: 130px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+  }
+  .header .logo{
+    background: transparent url(/themes/ansuz_theme_al_lp/images/logo.png) no-repeat top left;
+    height: 128px;
+    width: 450px;
+    margin-top:2px;
+    float: left;
+  }
+  .header .logo a{
+    display: block;
+    height: 128px;
+    width: 450px;
+  }
+  .header .logo a span{
+    display: none;
+  }
+  .header .search-form{
+    width: 200px;
+    height: 58px;
+    background: transparent url(/themes/ansuz_theme_al_lp/images/search.png) no-repeat top left;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding:18px 0 0 18px;
+  }
+  .header .search-form input{
+  	background-color:transparent;
+	  background-image:none;
+	  display:block;
+	  float:left;
+	  font-size: 1.05em;
+	  border: 0;
+	  font-family: times, serif;
+	  }
+	.header .search-form input.button{
+	  width:40px;
+	  margin-left: 10px;
+	  color: #eee;
+	  cursor: pointer;
+	  text-transform: uppercase;
+	  }
+	.header .search-form input.button:hover{
+	  color: #bbb;
+	}
+	.header .search-form input.text{
+	  width:130px;
+	  margin-left: 5px;
+	  color: #aaa;
+	  }
+  .header #navigation{
+    position:absolute;
+    width: auto;
+    right: 0;
+    bottom: -10px;
+    font-size: 1.15em;
+  }
+  .header #navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .header #navigation ul li{
+    display:block;
+    float: left;
+    height: 38px;
+    padding-top: 10px;
+    position:relative;
+  }
+  .header #navigation ul li a{
+    text-transform: uppercase;
+    color: #4b4b4b;
+    text-decoration: none;
+    padding: 10px 15px 15px;
+  }
+  .header #navigation ul li a:hover, .header #navigation ul li:hover a{
+    color: #7f0000;
+    }
+  .header #navigation ul li.active{
+    background: transparent url(/themes/ansuz_theme_al_lp/images/tab-right.png) no-repeat right top;
+    }
+  .header #navigation ul li.active a{
+    background: transparent url(/themes/ansuz_theme_al_lp/images/tab-left.png) no-repeat left top;
+    color: #011a38;
+    margin-right: 16px;
+    padding-right: 0;
+    }
+  .header #navigation ul li ul{
+    position:absolute;
+    padding-top: 6px;
+    width: 238px;
+	  left: -999em;
+  }
+  .header #navigation ul li:hover ul {
+  	left: auto;
+  }
+  .header #navigation ul li ul li{
+    float:none;
+    background: transparent url(/themes/ansuz_theme_al_lp/images/drop-down.png) repeat-y scroll 0 0;
+    padding-top: 0;
+    padding-left: 5px;
+  }
+  .header #navigation ul li ul li.last{
+    background:#FFFFFF none repeat-y scroll 0 0;
+    padding: 0;
+    position: relative;
+    top: -20px;
+  }
+  .header #navigation ul li ul li.last img{
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .header #navigation ul li:hover ul li a{
+    color: #4B4B4B;
+    padding: 5px 10px;
+  }
+  .header #navigation ul li:hover ul li a:hover{
+    color: #7f0000;
+  }
+  .content-wrapper{
+    background: transparent url(/themes/ansuz_theme_al_lp/images/cont-wrapper-bg.png) no-repeat left top;
+    width: 996px;
+    margin: 10px auto 0;
+    padding-top: 20px;
+  }
+  .content-wrapper .container{
+    background: #fff;
+    width: 950px;
+    margin: 0 auto 15px;
+    text-align: left;
+    padding-bottom: 15px;
+  }
+  .content-wrapper .container h2{
+    font-weight: 400;
+    font-size: 1.95em;
+    text-transform: uppercase;
+    margin: 20px 20px 0;
+  }
+  .content-wrapper .container p{
+    width: 700px;
+    margin-left: 20px;
+    font-size: 1.15em;
+  }
