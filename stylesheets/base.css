@@ -1,4 +1,7 @@
 :link,:visited { text-decoration:none } :focus,:active { outline: 0 } ul,ol { list-style:none } h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; } ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input { margin:0; padding:0 } a img,:link img,:visited img, fieldset { border:none } address { font-style:normal }
+html{
+  background: #cdd4d6;
+}
 body{
   background: #cdd4d6 url(/themes/ansuz_theme_al_lp/images/bg.png)repeat-x top left;
   font-family: times, serif;
@@ -69,6 +72,9 @@ body{
     right: 0;
     bottom: -10px;
     font-size: 1.15em;
+  }
+  .header #navigation h3{
+    display: none;
   }
   .header #navigation ul{
     list-style-type: none;
@@ -154,6 +160,6 @@ body{
   }
   .content-wrapper .container p{
     width: 700px;
-    margin-left: 20px;
+    margin: 20px 20px 0;
     font-size: 1.15em;
   }
