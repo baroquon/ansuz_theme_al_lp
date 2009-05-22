@@ -73,8 +73,9 @@ body{
     position:absolute;
     width: auto;
     right: 0;
-    bottom: -10px;
+    bottom: -20px;
     font-size: 1.15em;
+    height: 52px;
   }
   .header #navigation h3{
     display: none;
@@ -87,15 +88,17 @@ body{
   .header #navigation ul li{
     display:block;
     float: left;
-    height: 38px;
-    padding-top: 10px;
+    height: 52px;
+    padding-top: 0;
     position:relative;
   }
   .header #navigation ul li a{
     text-transform: uppercase;
     color: #4b4b4b;
     text-decoration: none;
-    padding: 10px 15px 15px;
+    padding: 10px 15px 0;
+    display: inline-block;
+    height: 100%;
   }
   .header #navigation ul li a:hover, .header #navigation ul li:hover a{
     color: #7f0000;
