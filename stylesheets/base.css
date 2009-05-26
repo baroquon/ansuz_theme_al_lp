@@ -1,12 +1,12 @@
 :link,:visited { text-decoration:none } :focus,:active { outline: 0 } ul,ol { list-style:none } h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; } ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input { margin:0; padding:0 } a img,:link img,:visited img, fieldset { border:none } address { font-style:normal }
 html{
-  background: #cdd4d6;
+ background-color: #cdd4d6;
 }
 a{
   color: #7f0000;
   }
 body{
-  background: #cdd4d6 url(/themes/ansuz_theme_al_lp/images/bg.png)repeat-x top left;
+  background: #CDD4D6 url(/themes/ansuz_theme_al_lp/images/bg.png) repeat-x scroll left top;
   font-family: times, serif;
   text-align: center;
   font-size: 1em;
@@ -36,14 +36,43 @@ body{
   .header .logo a span{
     display: none;
   }
-  .header .search-form{
-    width: 200px;
+  .header .give-us-money{
+    width: 310px;
     height: 58px;
-    background: transparent url(/themes/ansuz_theme_al_lp/images/search.png) no-repeat top left;
     position: absolute;
     right: 0;
-    top: 10px;
-    padding:18px 0 0 18px;
+    top: 0;
+    padding:18px 0 0;
+  }
+  .header .give-us-money .contribute span, .header .give-us-money .join span {
+    display: none;
+  }
+  .header .give-us-money .contribute{
+    background: transparent url(/themes/ansuz_theme_al_lp/images/contribute.png) no-repeat top left;
+    display: block;
+    float: left;
+    width: 175px;
+    height: 60px;
+    margin-top: 12px;
+  }
+  .header .give-us-money .contribute:hover{
+    background: transparent url(/themes/ansuz_theme_al_lp/images/contribute_hover.png) no-repeat top left;
+   }
+  .header .give-us-money .join:hover{
+    background: transparent url(/themes/ansuz_theme_al_lp/images/join_hover.png) no-repeat top left;
+   }
+  .header .give-us-money .join{
+    background: transparent url(/themes/ansuz_theme_al_lp/images/join.png) no-repeat top left;
+    display: block;
+    float: left;
+    width: 115px;
+    height: 60px;
+    margin-top: 12px;
+  }
+  .header .give-us-money img{
+    display: block;
+    float: left;
+    margin-right: 15px;
   }
   .header .search-form input{
   	background-color:transparent;
@@ -117,6 +146,8 @@ body{
     padding-top: 6px;
     width: 238px;
 	  left: -999em;
+    top: 27px;
+    z-index: 1000;
   }
   .header #navigation ul li:hover ul {
   	left: auto;
