@@ -37,12 +37,24 @@ body{
     display: none;
   }
   .header .give-us-money{
+    background-color:#FFFFFF;
+    border-bottom:4px solid #880000;
+    border-left:1px solid #AAAAAA;
+    border-right:1px solid #AAAAAA;
+    height:58px;
+    padding:18px 10px 10px;
+    position:absolute;
+    right:0;
+    top:0;
+    width:310px;
+    /*
     width: 310px;
     height: 58px;
     position: absolute;
     right: 0;
     top: 0;
     padding:18px 0 0;
+    */
   }
   .header .give-us-money .contribute span, .header .give-us-money .join span {
     display: none;
@@ -74,30 +86,6 @@ body{
     float: left;
     margin-right: 15px;
   }
-  .header .search-form input{
-  	background-color:transparent;
-	  background-image:none;
-	  display:block;
-	  float:left;
-	  font-size: 1.05em;
-	  border: 0;
-	  font-family: times, serif;
-	  }
-	.header .search-form input.button{
-	  width:40px;
-	  margin-left: 10px;
-	  color: #eee;
-	  cursor: pointer;
-	  text-transform: uppercase;
-	  }
-	.header .search-form input.button:hover{
-	  color: #bbb;
-	}
-	.header .search-form input.text{
-	  width:130px;
-	  margin-left: 5px;
-	  color: #aaa;
-	  }
   .header #navigation{
     position:absolute;
     width: auto;
