@@ -182,6 +182,7 @@ body{
     top: -22px;
     left: 5px;
     font-weight: 400;
+    font-size: .8em;
   }
   .content-wrapper .container h2{
     font-weight: 400;
@@ -190,7 +191,6 @@ body{
     margin: 20px 20px 0;
   }
   .content-wrapper .container p{
-    width: 700px;
-    margin: 20px 20px 0;
-    font-size: 1.15em;
+    margin: 10px 20px 0;
+    font-size: .9em;
   }

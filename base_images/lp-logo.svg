@@ -20,6 +20,42 @@
      id="defs4">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient4627">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4629" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4631" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4609">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop4611" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:0;"
+         offset="1"
+         id="stop4613" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4601">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop4603" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:0;"
+         offset="1"
+         id="stop4605" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient4501">
       <stop
          style="stop-color:#ffffff;stop-opacity:1;"
@@ -1458,6 +1494,36 @@
          stdDeviation="7.9053328"
          id="feGaussianBlur4717" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4601"
+       id="linearGradient4607"
+       x1="20603.469"
+       y1="15378.882"
+       x2="20603.469"
+       y2="15609.196"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4118343,0,0,1.9832622,-8503.5184,-45886.382)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4609"
+       id="linearGradient4615"
+       x1="20603.469"
+       y1="15245.542"
+       x2="20603.469"
+       y2="15492.02"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4118343,0,0,1.9356439,-8503.5184,-45213.712)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4627"
+       id="linearGradient4633"
+       x1="2095.5615"
+       y1="2655.0479"
+       x2="2095.5615"
+       y2="2677.0186"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(11.294674,0,0,-11.294674,-3083.5184,14824.427)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1470,15 +1536,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994952"
-     inkscape:cx="2502.9343"
-     inkscape:cy="-1693.712"
+     inkscape:cx="2328.0378"
+     inkscape:cy="-1720.5686"
      inkscape:document-units="px"
      inkscape:current-layer="g5485"
      showgrid="false"
      inkscape:window-width="1278"
      inkscape:window-height="772"
-     inkscape:window-x="1398"
-     inkscape:window-y="91"
+     inkscape:window-x="16"
+     inkscape:window-y="188"
      showguides="true"
      inkscape:guide-bbox="true">
     <sodipodi:guide
@@ -1489,6 +1555,10 @@
        orientation="1,0"
        position="-2.0203051,1018.2338"
        id="guide5243" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="2095.5614,-1640.9928"
+       id="guide4617" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -8294,29 +8364,53 @@
              inkscape:export-filename="/home/brandon/lp-header-nav-3.png"
              inkscape:export-xdpi="90"
              inkscape:export-ydpi="90" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="rect4599"
+             width="4331.5352"
+             height="436.38586"
+             x="20623.67"
+             y="15144.526"
+             transform="scale(1,-1)"
+             inkscape:export-filename="/home/brandon/rails/ansuz_theme_al_lp/images/latest_news.png"
+             inkscape:export-xdpi="89.749962"
+             inkscape:export-ydpi="89.749962" />
+          <rect
+             y="-15570.813"
+             x="20647.914"
+             height="328.48962"
+             width="2410.2236"
+             id="rect3827"
+             style="opacity:1;fill:url(#linearGradient4615);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             ry="125.1389" />
+          <path
+             style="opacity:0.5;fill:url(#linearGradient4607);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             d="M 20647.914,-15402.054 C 21436.11,-15402.054 21925.632,-15316.22 23012.502,-15402.054 L 23058.138,-15402.054 L 23058.138,-15177.673 L 20647.914,-15177.673 L 20647.914,-15402.054 z"
+             id="rect3825"
+             sodipodi:nodetypes="cccccc" />
           <text
              xml:space="preserve"
-             style="font-size:401.52615356000001157px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#4b4b4b;fill-opacity:1;stroke:#475a63;stroke-width:24;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter4715)"
+             style="font-size:401.52615356px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#4b4b4b;fill-opacity:1;stroke:#475a63;stroke-width:24;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4715);font-family:Bitstream Vera Sans"
              x="20681.672"
              y="15454.667"
              id="text4711"
-             transform="scale(1,-1)"><tspan
+             transform="matrix(1.4118343,0,0,-1.4118343,-8390.5716,6357.0026)"><tspan
                sodipodi:role="line"
                x="20681.672"
                y="15454.667"
-               style="font-size:222.55267334000001256px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#4b4b4b;fill-opacity:1;font-family:Bitstream Vera Serif;-inkscape-font-specification:Bitstream Vera Serif;stroke:#475a63;stroke-opacity:1;stroke-width:24;stroke-miterlimit:4;stroke-dasharray:none"
+               style="font-size:222.55267334px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#4b4b4b;fill-opacity:1;stroke:#475a63;stroke-width:24;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Serif;-inkscape-font-specification:Bitstream Vera Serif"
                id="tspan4713">Latest News</tspan></text>
           <text
              transform="scale(1,-1)"
              id="text3937"
-             y="15454.667"
-             x="20681.672"
-             style="font-size:401.52615356000001157px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#4b4b4b;fill-opacity:1;stroke:#ffffff;stroke-width:24;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;stroke-miterlimit:4;stroke-dasharray:none"
+             y="15462.426"
+             x="20808.521"
+             style="font-size:566.88836670000000595px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:28;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
              xml:space="preserve"><tspan
                id="tspan3939"
-               style="font-size:222.55267334000001256px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#4b4b4b;fill-opacity:1;font-family:Bitstream Vera Serif;-inkscape-font-specification:Bitstream Vera Serif;stroke:#ffffff;stroke-opacity:1;stroke-width:24;stroke-miterlimit:4;stroke-dasharray:none"
-               y="15454.667"
-               x="20681.672"
+               style="font-size:314.20748900999996067px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:28;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Serif;-inkscape-font-specification:Bitstream Vera Serif"
+               y="15462.426"
+               x="20808.521"
                sodipodi:role="line">Latest News</tspan></text>
           <text
              transform="scale(1,-1)"
@@ -8617,26 +8711,13 @@
                y="17375.381"
                x="25148.508"
                sodipodi:role="line">others to do the same.</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-size:401.52615356000001157px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#7f0000;fill-opacity:1;stroke:none;stroke-width:24;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;stroke-miterlimit:4;stroke-dasharray:none"
-             x="20681.672"
-             y="15454.667"
-             id="text4723"
-             transform="scale(1,-1)"><tspan
-               sodipodi:role="line"
-               x="20681.672"
-               y="15454.667"
-               style="font-size:222.55267334000001256px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f0000;fill-opacity:1;font-family:Bitstream Vera Serif;-inkscape-font-specification:Bitstream Vera Serif;stroke:none;stroke-opacity:1;stroke-width:24;stroke-miterlimit:4;stroke-dasharray:none"
-               id="tspan4725">Latest News</tspan></text>
           <rect
-             style="fill:#7f0000;fill-opacity:1;stroke:none;stroke-width:3.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:3.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              id="rect3873"
              width="4306.8418"
              height="18.580256"
              x="20644.1"
-             y="15472.233"
-             transform="scale(1,-1)" />
+             y="-15177.842" />
           <text
              xml:space="preserve"
              style="font-size:401.52615356px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#4b4b4b;fill-opacity:1;stroke:#475a63;stroke-width:24;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4715);font-family:Bitstream Vera Sans"
