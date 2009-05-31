@@ -3,7 +3,7 @@ html{
  background-color: #cdd4d6;
 }
 a{
-  color: #7f0000;
+  color: #990000;
   }
 body{
   background: #CDD4D6 url(/themes/ansuz_theme_al_lp/images/bg.png) repeat-x scroll left top;
@@ -117,7 +117,7 @@ body{
     height: 100%;
   }
   .header #navigation ul li a:hover, .header #navigation ul li:hover a{
-    color: #7f0000;
+    color: #990000;
     }
   .header #navigation ul li.active{
     background: transparent url(/themes/ansuz_theme_al_lp/images/tab-right.png) no-repeat right top;
